@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegistrationViewController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="4TJ-IQ-DRq"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="RegistrationViewController">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZj-MK-EXB" userLabel="Sign Up Later">
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <state key="normal" title="Sign Up Later">
+                        <color key="titleColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                    </state>
+                    <connections>
+                        <action selector="SignUpLater:" destination="-1" eventType="touchUpInside" id="zyh-sR-ZEs"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hpj-dX-wiD" userLabel="fbLoginButton">
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="hpj-dX-wiD" secondAttribute="height" multiplier="299:47" id="ho4-Nj-Gkl"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="facebookLoginWtext.png"/>
+                    <connections>
+                        <action selector="FBSignInPressed:" destination="-1" eventType="touchUpInside" id="Qhk-42-bCZ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHx-PC-3Jk" userLabel="googleLoginButton">
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="hHx-PC-3Jk" secondAttribute="height" multiplier="299:47" id="Oqk-gn-Q3v"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="googleLoginWtext.png"/>
+                    <connections>
+                        <action selector="GoogleSignInPressed:" destination="-1" eventType="touchUpInside" id="EM1-RB-A6f"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MyHero" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggO-BY-c3P">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="46" id="lps-hZ-VBg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.53725490200000003" green="0.83921568629999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="hpj-dX-wiD" secondAttribute="trailing" constant="38" id="2AS-aM-A9A"/>
+                <constraint firstItem="hpj-dX-wiD" firstAttribute="centerX" secondItem="ggO-BY-c3P" secondAttribute="centerX" id="6sz-Yf-qoi"/>
+                <constraint firstItem="ggO-BY-c3P" firstAttribute="leading" secondItem="DZj-MK-EXB" secondAttribute="leading" id="EGL-mB-iyz"/>
+                <constraint firstAttribute="bottom" secondItem="DZj-MK-EXB" secondAttribute="bottom" constant="55" id="Juv-kH-EKo"/>
+                <constraint firstItem="hHx-PC-3Jk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="38" id="KIV-Pm-2ot"/>
+                <constraint firstItem="hHx-PC-3Jk" firstAttribute="top" secondItem="hpj-dX-wiD" secondAttribute="bottom" constant="17" id="Nho-0b-qOD"/>
+                <constraint firstItem="DZj-MK-EXB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Qva-lT-vir"/>
+                <constraint firstItem="hpj-dX-wiD" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-32" id="UkX-Y8-2R0"/>
+                <constraint firstItem="hHx-PC-3Jk" firstAttribute="centerX" secondItem="DZj-MK-EXB" secondAttribute="centerX" id="W8P-1u-mZj"/>
+                <constraint firstItem="ggO-BY-c3P" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="61" id="WDd-ra-H3c"/>
+                <constraint firstAttribute="trailing" secondItem="hHx-PC-3Jk" secondAttribute="trailing" constant="38" id="Xks-BW-R4Y"/>
+                <constraint firstItem="hpj-dX-wiD" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bTz-fO-Hee"/>
+                <constraint firstItem="hpj-dX-wiD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="38" id="eEF-AV-hr6"/>
+                <constraint firstItem="ggO-BY-c3P" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gOT-zD-1nZ"/>
+                <constraint firstAttribute="trailing" secondItem="DZj-MK-EXB" secondAttribute="trailing" id="qvj-PW-8N7"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="facebookLoginWtext.png" width="899" height="143"/>
+        <image name="googleLoginWtext.png" width="899" height="143"/>
+    </resources>
+</document>

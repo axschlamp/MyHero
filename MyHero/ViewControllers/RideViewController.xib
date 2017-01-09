@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RideViewController">
+            <connections>
+                <outlet property="tableView" destination="ab9-Cw-rap" id="3eZ-nY-JAI"/>
+                <outlet property="view" destination="iN0-l3-epB" id="K3n-ri-u4H"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="py2-IY-Xba">
+                    <color key="backgroundColor" red="0.53725490200000003" green="0.83921568629999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="ha6-Ih-57z"/>
+                    </constraints>
+                </view>
+                <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l4A-bP-iOy">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="C1l-ia-0cK"/>
+                    </constraints>
+                    <color key="barTintColor" red="0.53725490200000003" green="0.83921568629999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <textAttributes key="titleTextAttributes">
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </textAttributes>
+                    <items>
+                        <navigationItem title="MyHero" id="xUV-lY-Miz">
+                            <barButtonItem key="rightBarButtonItem" systemItem="add" id="uRL-3G-4cM">
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="76" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ab9-Cw-rap">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Ggx-vI-Lnj"/>
+                        <outlet property="delegate" destination="-1" id="GVQ-6V-MNC"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="l4A-bP-iOy" secondAttribute="trailing" id="2xF-a1-DYw"/>
+                <constraint firstItem="l4A-bP-iOy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8JV-g9-Seh"/>
+                <constraint firstAttribute="trailing" secondItem="ab9-Cw-rap" secondAttribute="trailing" id="SDU-Eh-Pra"/>
+                <constraint firstAttribute="bottom" secondItem="ab9-Cw-rap" secondAttribute="bottom" id="TP2-ho-biO"/>
+                <constraint firstAttribute="trailing" secondItem="py2-IY-Xba" secondAttribute="trailing" id="akd-Q9-rDA"/>
+                <constraint firstItem="py2-IY-Xba" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cpG-oY-dka"/>
+                <constraint firstItem="l4A-bP-iOy" firstAttribute="top" secondItem="py2-IY-Xba" secondAttribute="bottom" id="kKd-Uu-WMD"/>
+                <constraint firstItem="ab9-Cw-rap" firstAttribute="top" secondItem="l4A-bP-iOy" secondAttribute="bottom" id="prY-l6-V8a"/>
+                <constraint firstItem="py2-IY-Xba" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="re9-tk-xdU"/>
+                <constraint firstItem="ab9-Cw-rap" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="x2T-ff-bmN"/>
+            </constraints>
+            <point key="canvasLocation" x="28.5" y="76.5"/>
+        </view>
+    </objects>
+</document>

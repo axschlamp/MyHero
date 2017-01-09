@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="UCT-dS-Us6">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Drive-->
+        <scene sceneID="Vjt-9p-1wj">
+            <objects>
+                <viewController id="Cc1-iI-1KF" userLabel="Drive" customClass="DriveViewController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Drive" image="wheel" id="zNW-uv-qke" userLabel="Drive"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kIK-Z1-HMK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1311" y="1291"/>
+        </scene>
+        <!--Buddies-->
+        <scene sceneID="hhs-jQ-UbB">
+            <objects>
+                <viewController id="wa1-VX-4ls" userLabel="Buddies" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zru-hb-PVj"/>
+                        <viewControllerLayoutGuide type="bottom" id="DGI-zd-Yq9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Max-B5-MFJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Buddies" image="buddies" id="uDH-hd-WaN" userLabel="Buddies"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4BA-SA-HCZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-671" y="1291"/>
+        </scene>
+        <!--Rewards-->
+        <scene sceneID="acE-gJ-DPX">
+            <objects>
+                <viewController id="GvR-y2-Bo0" userLabel="Rewards" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BNL-aY-amM"/>
+                        <viewControllerLayoutGuide type="bottom" id="qCk-la-mLU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1lF-nm-hUw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Rewards" image="trophy" id="MtR-B0-guB" userLabel="Rewards"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wlg-oI-jxs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10" y="1290"/>
+        </scene>
+        <!--More-->
+        <scene sceneID="aZ8-KQ-yaq">
+            <objects>
+                <viewController id="3da-GR-Cln" userLabel="More" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yFL-L2-BcI"/>
+                        <viewControllerLayoutGuide type="bottom" id="LF5-Mn-VOe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fTE-4v-Okq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="more" id="RPk-iX-RSA" userLabel="More"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jee-WR-d3E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="618" y="1290"/>
+        </scene>
+        <!--Ride-->
+        <scene sceneID="zUE-LD-6Ar">
+            <objects>
+                <viewController id="C7n-Ni-dKm" userLabel="Ride" customClass="RideViewController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Ride" image="car" id="klj-cm-0M2" userLabel="Ride"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5li-1q-ZGR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1951" y="1291"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Qwm-Jk-EZo">
+            <objects>
+                <tabBarController storyboardIdentifier="TabBarNavigation" id="UCT-dS-Us6" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="7tj-v0-3lZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" red="0.53725490200000003" green="0.83921568629999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="C7n-Ni-dKm" kind="relationship" relationship="viewControllers" id="mV6-gM-UTl"/>
+                        <segue destination="Cc1-iI-1KF" kind="relationship" relationship="viewControllers" id="bWD-0Q-fsJ"/>
+                        <segue destination="wa1-VX-4ls" kind="relationship" relationship="viewControllers" id="IIw-ku-rcG"/>
+                        <segue destination="GvR-y2-Bo0" kind="relationship" relationship="viewControllers" id="zl3-n9-3SZ"/>
+                        <segue destination="3da-GR-Cln" kind="relationship" relationship="viewControllers" id="oHA-rO-vfq"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KwV-Lo-0FI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-670" y="349"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="buddies" width="917" height="1018"/>
+        <image name="car" width="917" height="1018"/>
+        <image name="trophy" width="917" height="1018"/>
+        <image name="wheel" width="917" height="1018"/>
+    </resources>
+    <color key="tintColor" red="0.53725490200000003" green="0.83921568629999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+</document>

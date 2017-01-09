@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9B7AFFA180B29FD636BF14E /* libPods-MyHero.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CFA28F18A5F022A86EF5AAA /* libPods-MyHero.a */; };
+		FB8CA4501E232723001078C8 /* RegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB8CA44F1E232723001078C8 /* RegistrationViewController.xib */; };
+		FB8CA4541E232A09001078C8 /* facebookLoginWtext.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8CA4531E232A09001078C8 /* facebookLoginWtext.png */; };
+		FB8CA4561E232BA4001078C8 /* googleLoginWtext.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8CA4551E232BA4001078C8 /* googleLoginWtext.png */; };
+		FB8CA4581E233348001078C8 /* RideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB8CA4571E233348001078C8 /* RideViewController.xib */; };
+		FB8CA45E1E233A59001078C8 /* TransitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB8CA45D1E233A59001078C8 /* TransitTableViewCell.xib */; };
+		FB8CA4601E233AA3001078C8 /* TransitTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8CA45F1E233AA3001078C8 /* TransitTableViewCell.m */; };
+		FB8CA4651E233F48001078C8 /* Transit_Item.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8CA4641E233F48001078C8 /* Transit_Item.m */; };
+		FB8CA46A1E2344A5001078C8 /* UIImage+Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8CA4691E2344A5001078C8 /* UIImage+Hero.m */; };
+		FB8CA46C1E2377EF001078C8 /* DriveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8CA46B1E2377EF001078C8 /* DriveViewController.m */; };
+		FB8CA46F1E237874001078C8 /* DriveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB8CA46E1E237874001078C8 /* DriveViewController.xib */; };
+		FB8CA4711E237A7A001078C8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8CA4701E237A7A001078C8 /* MapKit.framework */; };
+		FBABBE571E22DDCF000FDF71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBABBE561E22DDCF000FDF71 /* main.m */; };
+		FBABBE5A1E22DDCF000FDF71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBABBE591E22DDCF000FDF71 /* AppDelegate.m */; };
+		FBABBE601E22DDCF000FDF71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBABBE5E1E22DDCF000FDF71 /* Main.storyboard */; };
+		FBABBE621E22DDCF000FDF71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBABBE611E22DDCF000FDF71 /* Assets.xcassets */; };
+		FBABBE651E22DDCF000FDF71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBABBE631E22DDCF000FDF71 /* LaunchScreen.storyboard */; };
+		FBABBE701E23193E000FDF71 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBABBE6F1E23193E000FDF71 /* RegistrationViewController.m */; };
+		FBABBE731E2319DD000FDF71 /* HeroBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBABBE721E2319DD000FDF71 /* HeroBaseViewController.m */; };
+		FBABBE751E231A3E000FDF71 /* RideViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = FBABBE741E231A3E000FDF71 /* RideViewController.h */; };
+		FBABBE771E231A9D000FDF71 /* RideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBABBE761E231A9D000FDF71 /* RideViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CEED65CF1763D68C9CFEB89 /* Pods-MyHero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHero.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyHero/Pods-MyHero.release.xcconfig"; sourceTree = "<group>"; };
+		7CFA28F18A5F022A86EF5AAA /* libPods-MyHero.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyHero.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7FBB598ED2C1F4418700B8 /* Pods-MyHero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHero.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyHero/Pods-MyHero.debug.xcconfig"; sourceTree = "<group>"; };
+		FB8CA44F1E232723001078C8 /* RegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationViewController.xib; sourceTree = "<group>"; };
+		FB8CA4531E232A09001078C8 /* facebookLoginWtext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookLoginWtext.png; sourceTree = "<group>"; };
+		FB8CA4551E232BA4001078C8 /* googleLoginWtext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = googleLoginWtext.png; sourceTree = "<group>"; };
+		FB8CA4571E233348001078C8 /* RideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RideViewController.xib; sourceTree = "<group>"; };
+		FB8CA45D1E233A59001078C8 /* TransitTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransitTableViewCell.xib; sourceTree = "<group>"; };
+		FB8CA45F1E233AA3001078C8 /* TransitTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitTableViewCell.m; sourceTree = "<group>"; };
+		FB8CA4611E233AC3001078C8 /* TransitTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitTableViewCell.h; sourceTree = "<group>"; };
+		FB8CA4631E233F27001078C8 /* Transit_Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transit_Item.h; sourceTree = "<group>"; };
+		FB8CA4641E233F48001078C8 /* Transit_Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transit_Item.m; sourceTree = "<group>"; };
+		FB8CA4671E2341FF001078C8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FB8CA4681E2344A5001078C8 /* UIImage+Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Hero.h"; sourceTree = "<group>"; };
+		FB8CA4691E2344A5001078C8 /* UIImage+Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Hero.m"; sourceTree = "<group>"; };
+		FB8CA46B1E2377EF001078C8 /* DriveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriveViewController.m; sourceTree = "<group>"; };
+		FB8CA46D1E237806001078C8 /* DriveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DriveViewController.h; sourceTree = "<group>"; };
+		FB8CA46E1E237874001078C8 /* DriveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DriveViewController.xib; sourceTree = "<group>"; };
+		FB8CA4701E237A7A001078C8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FBABBE521E22DDCF000FDF71 /* MyHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBABBE561E22DDCF000FDF71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBABBE581E22DDCF000FDF71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBABBE591E22DDCF000FDF71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBABBE5F1E22DDCF000FDF71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBABBE611E22DDCF000FDF71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBABBE641E22DDCF000FDF71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBABBE661E22DDCF000FDF71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBABBE6E1E23193E000FDF71 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		FBABBE6F1E23193E000FDF71 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		FBABBE711E231995000FDF71 /* HeroBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroBaseViewController.h; sourceTree = "<group>"; };
+		FBABBE721E2319DD000FDF71 /* HeroBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroBaseViewController.m; sourceTree = "<group>"; };
+		FBABBE741E231A3E000FDF71 /* RideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RideViewController.h; sourceTree = "<group>"; };
+		FBABBE761E231A9D000FDF71 /* RideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RideViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBABBE4F1E22DDCF000FDF71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8CA4711E237A7A001078C8 /* MapKit.framework in Frameworks */,
+				D9B7AFFA180B29FD636BF14E /* libPods-MyHero.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F5EC4A36325F6F894FACCB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE7FBB598ED2C1F4418700B8 /* Pods-MyHero.debug.xcconfig */,
+				1CEED65CF1763D68C9CFEB89 /* Pods-MyHero.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		980F5EC06F7D141A4AE8CE70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB8CA4701E237A7A001078C8 /* MapKit.framework */,
+				7CFA28F18A5F022A86EF5AAA /* libPods-MyHero.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB8CA4511E232A09001078C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB8CA4521E232A09001078C8 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FB8CA4521E232A09001078C8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FB8CA4531E232A09001078C8 /* facebookLoginWtext.png */,
+				FB8CA4551E232BA4001078C8 /* googleLoginWtext.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FB8CA4621E233E87001078C8 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				FB8CA4631E233F27001078C8 /* Transit_Item.h */,
+				FB8CA4641E233F48001078C8 /* Transit_Item.m */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		FB8CA4661E234078001078C8 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FB8CA4681E2344A5001078C8 /* UIImage+Hero.h */,
+				FB8CA4691E2344A5001078C8 /* UIImage+Hero.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		FBABBE491E22DDCF000FDF71 = {
+			isa = PBXGroup;
+			children = (
+				FBABBE541E22DDCF000FDF71 /* MyHero */,
+				FBABBE531E22DDCF000FDF71 /* Products */,
+				2F5EC4A36325F6F894FACCB8 /* Pods */,
+				980F5EC06F7D141A4AE8CE70 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FBABBE531E22DDCF000FDF71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBABBE521E22DDCF000FDF71 /* MyHero.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBABBE541E22DDCF000FDF71 /* MyHero */ = {
+			isa = PBXGroup;
+			children = (
+				FB8CA4621E233E87001078C8 /* Objects */,
+				FB8CA4661E234078001078C8 /* Categories */,
+				FBABBE6C1E23193E000FDF71 /* Views */,
+				FBABBE6D1E23193E000FDF71 /* ViewControllers */,
+				FBABBE581E22DDCF000FDF71 /* AppDelegate.h */,
+				FBABBE591E22DDCF000FDF71 /* AppDelegate.m */,
+				FBABBE5E1E22DDCF000FDF71 /* Main.storyboard */,
+				FBABBE611E22DDCF000FDF71 /* Assets.xcassets */,
+				FB8CA4511E232A09001078C8 /* Resources */,
+				FBABBE551E22DDCF000FDF71 /* Supporting Files */,
+			);
+			path = MyHero;
+			sourceTree = "<group>";
+		};
+		FBABBE551E22DDCF000FDF71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBABBE631E22DDCF000FDF71 /* LaunchScreen.storyboard */,
+				FBABBE661E22DDCF000FDF71 /* Info.plist */,
+				FBABBE561E22DDCF000FDF71 /* main.m */,
+				FB8CA4671E2341FF001078C8 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBABBE6C1E23193E000FDF71 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB8CA4611E233AC3001078C8 /* TransitTableViewCell.h */,
+				FB8CA45F1E233AA3001078C8 /* TransitTableViewCell.m */,
+				FB8CA45D1E233A59001078C8 /* TransitTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FBABBE6D1E23193E000FDF71 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FBABBE6E1E23193E000FDF71 /* RegistrationViewController.h */,
+				FBABBE6F1E23193E000FDF71 /* RegistrationViewController.m */,
+				FB8CA44F1E232723001078C8 /* RegistrationViewController.xib */,
+				FBABBE711E231995000FDF71 /* HeroBaseViewController.h */,
+				FBABBE721E2319DD000FDF71 /* HeroBaseViewController.m */,
+				FBABBE741E231A3E000FDF71 /* RideViewController.h */,
+				FBABBE761E231A9D000FDF71 /* RideViewController.m */,
+				FB8CA4571E233348001078C8 /* RideViewController.xib */,
+				FB8CA46D1E237806001078C8 /* DriveViewController.h */,
+				FB8CA46B1E2377EF001078C8 /* DriveViewController.m */,
+				FB8CA46E1E237874001078C8 /* DriveViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBABBE511E22DDCF000FDF71 /* MyHero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBABBE691E22DDCF000FDF71 /* Build configuration list for PBXNativeTarget "MyHero" */;
+			buildPhases = (
+				078D8AA8428C37EA160F4EC2 /* [CP] Check Pods Manifest.lock */,
+				FBABBE4E1E22DDCF000FDF71 /* Sources */,
+				FBABBE4F1E22DDCF000FDF71 /* Frameworks */,
+				FBABBE501E22DDCF000FDF71 /* Resources */,
+				A8D61E061148EB15488D8DF0 /* [CP] Embed Pods Frameworks */,
+				EE3C86D9340F5D66C8C5A20E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyHero;
+			productName = MyHero;
+			productReference = FBABBE521E22DDCF000FDF71 /* MyHero.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBABBE4A1E22DDCF000FDF71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Alex Schlamp";
+				TargetAttributes = {
+					FBABBE511E22DDCF000FDF71 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JE3XCHJD6K;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = FBABBE4D1E22DDCF000FDF71 /* Build configuration list for PBXProject "MyHero" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBABBE491E22DDCF000FDF71;
+			productRefGroup = FBABBE531E22DDCF000FDF71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBABBE511E22DDCF000FDF71 /* MyHero */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBABBE501E22DDCF000FDF71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8CA4581E233348001078C8 /* RideViewController.xib in Resources */,
+				FB8CA46F1E237874001078C8 /* DriveViewController.xib in Resources */,
+				FB8CA45E1E233A59001078C8 /* TransitTableViewCell.xib in Resources */,
+				FB8CA4501E232723001078C8 /* RegistrationViewController.xib in Resources */,
+				FB8CA4561E232BA4001078C8 /* googleLoginWtext.png in Resources */,
+				FBABBE651E22DDCF000FDF71 /* LaunchScreen.storyboard in Resources */,
+				FB8CA4541E232A09001078C8 /* facebookLoginWtext.png in Resources */,
+				FBABBE621E22DDCF000FDF71 /* Assets.xcassets in Resources */,
+				FBABBE601E22DDCF000FDF71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		078D8AA8428C37EA160F4EC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8D61E061148EB15488D8DF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyHero/Pods-MyHero-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE3C86D9340F5D66C8C5A20E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyHero/Pods-MyHero-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBABBE4E1E22DDCF000FDF71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBABBE701E23193E000FDF71 /* RegistrationViewController.m in Sources */,
+				FB8CA46A1E2344A5001078C8 /* UIImage+Hero.m in Sources */,
+				FBABBE5A1E22DDCF000FDF71 /* AppDelegate.m in Sources */,
+				FBABBE571E22DDCF000FDF71 /* main.m in Sources */,
+				FBABBE731E2319DD000FDF71 /* HeroBaseViewController.m in Sources */,
+				FB8CA46C1E2377EF001078C8 /* DriveViewController.m in Sources */,
+				FB8CA4651E233F48001078C8 /* Transit_Item.m in Sources */,
+				FB8CA4601E233AA3001078C8 /* TransitTableViewCell.m in Sources */,
+				FBABBE771E231A9D000FDF71 /* RideViewController.m in Sources */,
+				FBABBE751E231A3E000FDF71 /* RideViewController.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBABBE5E1E22DDCF000FDF71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBABBE5F1E22DDCF000FDF71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBABBE631E22DDCF000FDF71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBABBE641E22DDCF000FDF71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBABBE671E22DDCF000FDF71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBABBE681E22DDCF000FDF71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBABBE6A1E22DDCF000FDF71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE7FBB598ED2C1F4418700B8 /* Pods-MyHero.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JE3XCHJD6K;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MyHero/PrefixHeader.pch;
+				INFOPLIST_FILE = MyHero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Schlamp.MyHero";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBABBE6B1E22DDCF000FDF71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CEED65CF1763D68C9CFEB89 /* Pods-MyHero.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JE3XCHJD6K;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MyHero/PrefixHeader.pch;
+				INFOPLIST_FILE = MyHero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Schlamp.MyHero";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBABBE4D1E22DDCF000FDF71 /* Build configuration list for PBXProject "MyHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBABBE671E22DDCF000FDF71 /* Debug */,
+				FBABBE681E22DDCF000FDF71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBABBE691E22DDCF000FDF71 /* Build configuration list for PBXNativeTarget "MyHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBABBE6A1E22DDCF000FDF71 /* Debug */,
+				FBABBE6B1E22DDCF000FDF71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBABBE4A1E22DDCF000FDF71 /* Project object */;
+}
